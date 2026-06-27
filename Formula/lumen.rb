@@ -1,28 +1,28 @@
 class Lumen < Formula
   desc "Dynamic, bytecode-compiled programming language with a full toolchain"
   homepage "https://github.com/fzlzjerry/lumen"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fzlzjerry/lumen/releases/download/v0.3.0/lumen-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e0d3848a5eacee14257cd8d011703c45d1d80613fa68375e0e077c03eecc2d96"
+      url "https://github.com/fzlzjerry/lumen/releases/download/v0.4.0/lumen-0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a5c5f46b9d5f5ab56a14e38c96b11a78d15bee7c9f22c7df922e485b44cfb9d4"
     end
     on_intel do
-      url "https://github.com/fzlzjerry/lumen/releases/download/v0.3.0/lumen-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "05570207bffa015fc5353fd3a729c4d4cbbaf17340843c8bf90412a71f189a2f"
+      url "https://github.com/fzlzjerry/lumen/releases/download/v0.4.0/lumen-0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a55c5ed029abaaaa5d1034a26ee4f733f72b482357bd131644d43162e84bd0dd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fzlzjerry/lumen/releases/download/v0.3.0/lumen-0.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "993be8681ce30dab3e3855d0beab4a7ad9c01d1dda112f03497c2d0a2fea4506"
+      url "https://github.com/fzlzjerry/lumen/releases/download/v0.4.0/lumen-0.4.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "395603c9a7532f9da5874c099101a1cb43ed75a2b842338179cae75e66cf8de8"
     end
     on_intel do
-      url "https://github.com/fzlzjerry/lumen/releases/download/v0.3.0/lumen-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "895edb3930bf37174ae40797cd0873f222dbcef85fa5cae8f0c5514c5ebaf540"
+      url "https://github.com/fzlzjerry/lumen/releases/download/v0.4.0/lumen-0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "dcb67888a2948431f9dada16a33521d38a4679706b3eb1a43afa97a7ad5fc24b"
     end
   end
 
